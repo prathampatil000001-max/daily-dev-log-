@@ -30,7 +30,7 @@ jobs:
 
       - name: Commit
         run: |
-          git config user.name "prathampatil000001"
+          git config user.name "prathampatil000001-max"
           git config user.email "pratham.bonde.cg@gmail.com "
           git add .
           git diff --cached --quiet || git commit -m "docs: daily development log"
